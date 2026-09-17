@@ -1,0 +1,31 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    background: rgb(239, 238, 238);
+}
+.left-menu{
+    display: flex;
+    gap: 20px;
+}
+.right-menu{
+    display: flex;
+    gap: 20px;
+}
+.left-menu a{
+text-decoration: none;
+font-size: 15px;
+color: black;
+}
+.right-menu a{
+text-decoration: none;
+font-size: 15px;
+color: black;
+}
+.left-menu a:hover{
+color: red;
+}
+.right-menu a:hover{
+    color: red;
+}

@@ -1,0 +1,53 @@
+.events {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.premiere h2,
+.new-stream h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.stream-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.stream-list::-webkit-scrollbar {
+    display: none;
+}
+
+.stream-card {
+    min-width: 200px;
+    position: relative;
+}
+
+.stream-card img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+
+
+.new-stream {
+    margin-top: 50px;
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-heading a {
+    color: #e64646;
+    text-decoration: none;
+    font-size: 14px;
+}

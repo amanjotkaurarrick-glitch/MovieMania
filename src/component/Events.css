@@ -1,0 +1,35 @@
+.event{
+    width: 90%;
+    margin: 20px auto;
+
+}
+.stream{
+    text-align: center;
+
+}
+.stream img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.live-events{
+    margin-top: 30px;
+    
+}
+.live-events h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.events-list{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+    cursor: pointer;
+
+}
+.events-list::-webkit-scrollbar{
+    display: none;
+}
+
